@@ -306,6 +306,7 @@ p { margin-top: 0; }
   z-index:1;
   letter-spacing:-3px;
 }
+.art-threat {background:linear-gradient(130deg,#4b1f63,#9a2d6b);}
 .level-pill {
   position:relative;z-index:1;
   background:rgba(255,255,255,.19);
@@ -615,13 +616,10 @@ p { margin-top: 0; }
       <div class="eyebrow">Industry-Relevant Skills Training</div>
       <h1>Build skills for a <span>smarter future.</span></h1>
       <p class="hero-desc">
-        Discover specialized micro-credential programs in Artificial Intelligence,
-        Machine Learning, Data Science, AI Automation, and Cybersecurity.
-        Develop practical competencies that can help you adapt, grow,
-        and take the next step in your professional journey.
+        Discover specialized micro-credential programs in Artificial Intelligence, Machine Learning, Data Science, AI Automation, Cybersecurity, and Cyber Threat Intelligence.
       </p>
       <div class="hero-actions">
-        <a class="btn" href="#programs">Explore the 5 Programs →</a>
+        <a class="btn" href="#programs">Explore the 6 Programs →</a>
         <a class="btn btn-light" href="#eligibility">Check Your Eligibility</a>
       </div>
       <div class="hero-points">
@@ -648,7 +646,7 @@ p { margin-top: 0; }
 
 <div class="stats">
   <div class="container stats-inner">
-    <div class="stat"><b>5</b><span>Specialized Programs</span></div>
+    <div class="stat"><b>6</b><span>Specialized Programs</span></div>
     <div class="stat"><b>2</b><span>Training Levels</span></div>
     <div class="stat"><b>40–114</b><span>Training Hours</span></div>
     <div class="stat"><b>Blended</b><span>Learning Approach</span></div>
@@ -659,7 +657,7 @@ p { margin-top: 0; }
   <div class="container">
     <div class="section-heading">
       <div class="eyebrow">Explore Your Opportunities</div>
-      <h2>Five programs. Multiple pathways to growth.</h2>
+      <h2>Six programs. Multiple pathways to growth.</h2>
       <p class="muted">
         Whether you're building foundational AI skills or expanding your
         technical capabilities, discover a program aligned with your goals.
@@ -811,9 +809,7 @@ p { margin-top: 0; }
         <summary>What is a micro-credential program?</summary>
         <p>
           A micro-credential program is focused training built around
-          a defined set of skills or competencies. These five programs
-          cover specialized topics in AI, data handling, machine
-          learning, automation, and cybersecurity.
+          a defined set of skills or competencies. These six programs cover specialized topics in AI, data handling, machine learning, automation, cybersecurity, and cyber threat intelligence.
         </p>
       </details>
       <details class="faq-item">
@@ -892,9 +888,7 @@ p { margin-top: 0; }
     <div class="eyebrow" style="color:#80e4ef">Your Next Chapter Starts Here</div>
     <h2>Technology is evolving. Grow your skills with it.</h2>
     <p>
-      Take the next step toward AI fluency, data expertise,
-      intelligent automation, machine learning, or cybersecurity.
-      Explore your options and discover where you can begin.
+      Take the next step toward AI fluency, data expertise, intelligent automation, machine learning, cybersecurity, or cyber threat intelligence. Explore your options and discover where you can begin.
     </p>
     <a href="#eligibility" class="btn btn-light">
       Find Your Micro-Credential →
@@ -1221,6 +1215,76 @@ const programs = [
       "Security compliance assessment",
       "Vulnerability and threat identification",
       "Information security governance support"
+    ]
+  },
+    {
+    id: "ctia",
+    title: "Cyber Threat Intelligence Analysis",
+    fullTitle: "Cyber Threat Intelligence Analysis Level III",
+    level: "Level III",
+    category: "Cybersecurity & Threat Intelligence",
+    tags: ["cyber"],
+    hours: 92,
+    days: 12,
+    art: "art-threat",
+    symbol: "◉",
+    short:
+      "Learn to analyze cyber threats, support incident response, " +
+      "and strengthen security operations using threat intelligence.",
+    description:
+      "Develop competencies in threat intelligence analysis, " +
+      "vulnerability assessment, incident response, and security " +
+      "operations. This program is designed for learners who already " +
+      "have foundational cybersecurity knowledge and want to deepen " +
+      "their analytical and operational capabilities.",
+    audience:
+      "Learners with basic education or an Information Technology " +
+      "background who already possess fundamental cybersecurity knowledge.",
+    mandatory: [
+      {
+        id: "basiced_or_it",
+        question: "Have you completed basic education or an Information Technology course?",
+        help: "The learner profile states that applicants must have completed basic education or an Information Technology course."
+      },
+      {
+        id: "cyberbasics",
+        question: "Are you knowledgeable in fundamental cybersecurity concepts?",
+        help:
+          "The learner profile explicitly requires knowledge of fundamental cybersecurity concepts."
+      }
+    ],
+    preferred: [
+      {
+        id: "entrycert",
+        question:
+          "Do you have an entry-level cybersecurity certification (such as CompTIA Security+)?",
+        help:
+          "This is preferred, but not stated as mandatory."
+      },
+      {
+        id: "experience",
+        question:
+          "Do you have at least 1 year of experience in a cybersecurity-related job or industry?",
+        help:
+          "This is preferred, but not stated as mandatory."
+      }
+    ],
+    outcomes: [
+      "Differentiate threat intelligence and threat hunting concepts.",
+      "Identify and analyze malicious activity using appropriate tools and techniques.",
+      "Implement and analyze vulnerability assessments.",
+      "Prioritize vulnerabilities and recommend mitigation actions.",
+      "Apply updated attack methodology frameworks.",
+      "Perform incident response activities and understand the incident management lifecycle.",
+      "Apply communication best practices in vulnerability management and incident response."
+    ],
+    applications: [
+      "Threat intelligence analysis",
+      "Security operations support",
+      "Incident response support",
+      "Vulnerability analysis",
+      "Threat hunting preparation",
+      "SOC-related workflows"
     ]
   }
 ];
