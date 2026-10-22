@@ -1,0 +1,1677 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore five industry-relevant AI, data science, machine learning, automation, and cybersecurity micro-credential training programs. Discover your pathway and check entry requirements.">
+<meta name="theme-color" content="#07152c">
+<title>Future-Ready Skills | Micro-Credential Programs</title>
+
+<style>
+.ama-brand {
+  display: inline-block;
+  color: #800000;
+  background: #ffffff;
+  padding: 6px 12px;
+  border-radius: 7px;
+  font-weight: 900;
+  font-size: 1rem;
+  letter-spacing: .2px;
+}
+:root {
+  --navy: #07152c;
+  --navy2: #10264a;
+  --blue: #2867e8;
+  --blue2: #174cb5;
+  --cyan: #42d4e8;
+  --ink: #172640;
+  --muted: #62718a;
+  --light: #f3f6fb;
+  --white: #ffffff;
+  --line: #e1e8f1;
+  --green: #16845e;
+  --amber: #9c6200;
+  --shadow: 0 15px 40px rgba(15,35,75,.08);
+  --radius: 20px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--white);
+  color: var(--ink);
+  line-height: 1.65;
+}
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+button:focus-visible, a:focus-visible, input:focus-visible {
+  outline: 3px solid #63c8ff;
+  outline-offset: 4px;
+}
+.container { width: min(1160px, 92%); margin: auto; }
+.section { padding: 88px 0; }
+.section-alt { background: var(--light); }
+.section-heading {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 43px;
+}
+.eyebrow {
+  color: var(--blue);
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+h1,h2,h3,h4 { line-height: 1.2; }
+h1 { font-size: clamp(2.55rem,5.4vw,4.9rem); letter-spacing:-2px; }
+h2 { font-size: clamp(1.8rem,3vw,2.7rem); letter-spacing:-1px; }
+h3 { font-size: 1.35rem; }
+p { margin-top: 0; }
+.muted { color: var(--muted); }
+.small { font-size: .88rem; }
+.hidden { display: none !important; }
+
+/* NAVIGATION */
+.nav {
+  background: var(--navy);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid rgba(255,255,255,.09);
+}
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 75px;
+  gap: 18px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 900;
+  font-size: 1.12rem;
+  letter-spacing: -.4px;
+}
+.brand-icon {
+  width: 39px; height: 39px;
+  background: linear-gradient(135deg,var(--cyan),var(--blue));
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  font-size: 21px;
+}
+.brand small {
+  display: block;
+  color: #94b0db;
+  font-size: .62rem;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: .87rem;
+  font-weight: 650;
+}
+.nav-links a:not(.btn):hover { color: var(--cyan); }
+.btn {
+  border: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 13px 21px;
+  border-radius: 11px;
+  background: var(--blue);
+  color: white;
+  font-weight: 750;
+  font-size: .9rem;
+  transition: transform .18s, background .18s, box-shadow .18s;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  background: var(--blue2);
+  box-shadow: 0 9px 20px rgba(40,103,232,.20);
+}
+.btn-light { background: white; color: var(--navy); }
+.btn-light:hover { background: #e9f1ff; }
+.btn-outline {
+  color: var(--blue);
+  background: #eaf1ff;
+}
+.btn-outline:hover { color: white; }
+.btn-small { padding: 10px 15px; }
+.menu-btn {
+  display: none;
+  background: transparent;
+  color: white;
+  font-size: 1.4rem;
+  border: 0;
+}
+
+/* HERO */
+.hero {
+  background:
+    radial-gradient(ellipse at 88% 25%,rgba(32,109,228,.30),transparent 45%),
+    radial-gradient(ellipse at 12% 85%,rgba(12,144,167,.14),transparent 42%),
+    linear-gradient(135deg,#07152c,#102950);
+  color: white;
+  overflow: hidden;
+}
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1.12fr .88fr;
+  gap: 55px;
+  align-items: center;
+  min-height: 610px;
+  padding: 72px 0;
+}
+.hero .eyebrow { color: #6fe4f2; }
+.hero h1 { margin: 18px 0 22px; }
+.hero h1 span { color: #6de0ef; }
+.hero-desc {
+  color: #bfd0e8;
+  max-width: 600px;
+  font-size: 1.08rem;
+}
+.hero-actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:30px; }
+.hero-points {
+  display:flex; flex-wrap:wrap; gap:13px;
+  margin-top:34px; color:#c3d8f1; font-size:.84rem;
+}
+.hero-points span { display:flex; align-items:center; gap:7px; }
+.hero-points b { color:#73e1ee; }
+
+.hero-visual { position:relative; }
+.orbit {
+  width: 100%;
+  aspect-ratio: 1.05;
+  display: grid;
+  place-items:center;
+  border: 1px solid rgba(131,188,255,.16);
+  border-radius: 50%;
+  background: radial-gradient(circle,rgba(57,127,237,.16),transparent 68%);
+}
+.orbit-inner {
+  width: 75%; aspect-ratio:1;
+  border:1px dashed rgba(136,198,255,.25);
+  border-radius:50%;
+  display:grid;place-items:center;
+  position:relative;
+}
+.core {
+  width: 48%;aspect-ratio:1;border-radius:28%;
+  background:linear-gradient(135deg,#2878f2,#36c7db);
+  display:grid;place-items:center;
+  box-shadow:0 0 80px rgba(45,169,229,.30);
+  font-size:clamp(38px,7vw,75px);
+  font-weight:900;
+}
+.float {
+  position:absolute;
+  padding:10px 15px;
+  border:1px solid rgba(154,200,255,.25);
+  border-radius:12px;
+  background:rgba(17,43,83,.94);
+  color:white;
+  font-size:.82rem;
+  font-weight:800;
+  box-shadow:0 15px 30px rgba(0,0,0,.12);
+  white-space:nowrap;
+}
+.f1 { top:7%;left:-6%; }
+.f2 { top:24%;right:-12%; }
+.f3 { bottom:21%;left:-16%; }
+.f4 { bottom:8%;right:-7%; }
+.f5 { top:48%;right:-23%; }
+
+.stats { background:#fff; border-bottom:1px solid var(--line); }
+.stats-inner {
+  display:grid;grid-template-columns:repeat(4,1fr);
+  gap:20px;padding:29px 0;
+}
+.stat {text-align:center;border-right:1px solid var(--line);}
+.stat:last-child {border:0;}
+.stat b {display:block;font-size:1.65rem;color:var(--blue);}
+.stat span {font-size:.83rem;color:var(--muted);font-weight:650;}
+
+/* COURSE FILTERS & CARDS */
+.filters {
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:9px;
+  margin-bottom:29px;
+}
+.filter {
+  border:1px solid #d9e2f0;
+  border-radius:100px;
+  padding:10px 18px;
+  background:white;
+  color:#4a5d79;
+  font-weight:750;
+  font-size:.86rem;
+}
+.filter.active {
+  color:white;background:var(--navy2);
+  border-color:var(--navy2);
+}
+.course-grid {display:grid;grid-template-columns:repeat(3,1fr);gap:23px;}
+.course-card {
+  background:white;border:1px solid var(--line);
+  border-radius:var(--radius);overflow:hidden;
+  box-shadow:var(--shadow);
+  display:flex;flex-direction:column;
+  transition:transform .2s,box-shadow .2s;
+}
+.course-card:hover {
+  transform:translateY(-5px);
+  box-shadow:0 20px 40px rgba(20,45,90,.14);
+}
+.card-art {
+  min-height:149px;
+  padding:22px;
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  color:white;
+  position:relative;
+  overflow:hidden;
+}
+.card-art::after {
+  content:"";
+  position:absolute;
+  width:195px;height:195px;
+  right:-65px;top:30px;
+  border-radius:50%;
+  border:32px solid rgba(255,255,255,.08);
+}
+.art-ai {background:linear-gradient(130deg,#4f3eaa,#8f59d4);}
+.art-data {background:linear-gradient(130deg,#087e91,#27aeb7);}
+.art-automation {background:linear-gradient(130deg,#145ec5,#28a1cf);}
+.art-ml {background:linear-gradient(130deg,#284198,#5568d9);}
+.art-cyber {background:linear-gradient(130deg,#172c51,#24716d);}
+.art-symbol {
+  font-size:2.8rem;
+  font-weight:900;
+  z-index:1;
+  letter-spacing:-3px;
+}
+.level-pill {
+  position:relative;z-index:1;
+  background:rgba(255,255,255,.19);
+  border:1px solid rgba(255,255,255,.25);
+  padding:6px 11px;
+  border-radius:50px;
+  font-weight:800;
+  font-size:.72rem;
+}
+.card-body {padding:25px;flex:1;display:flex;flex-direction:column;}
+.card-category {
+  text-transform:uppercase;letter-spacing:1.2px;
+  color:var(--blue);font-size:.7rem;font-weight:850;
+}
+.card-body h3 {min-height:57px;margin:11px 0;}
+.card-body p {font-size:.9rem;color:var(--muted);}
+.card-meta {
+  display:flex;flex-wrap:wrap;gap:7px;
+  margin:12px 0 17px;
+}
+.meta-chip {
+  color:#526481;background:#f1f5fb;
+  border-radius:7px;padding:6px 10px;
+  font-size:.76rem;font-weight:750;
+}
+.req-preview {
+  border-top:1px solid var(--line);
+  padding-top:16px;margin-top:auto;
+  font-size:.84rem;
+}
+.req-preview strong {display:block;margin-bottom:5px;}
+.req-preview p {margin-bottom:16px;font-size:.83rem;}
+.card-actions {display:flex;gap:9px;flex-wrap:wrap;}
+.card-actions .btn {flex:1;padding:11px 13px;font-size:.82rem;}
+.note {
+  margin:23px auto 0;
+  text-align:center;
+  max-width:790px;color:var(--muted);
+  font-size:.84rem;
+}
+
+/* BENEFITS */
+.benefit-grid {display:grid;grid-template-columns:repeat(4,1fr);gap:19px;}
+.benefit {
+  background:white;border:1px solid var(--line);
+  border-radius:17px;padding:27px 22px;
+}
+.benefit-icon {
+  width:50px;height:50px;border-radius:14px;
+  background:#e8f0ff;color:var(--blue);
+  display:grid;place-items:center;
+  font-size:1.45rem;font-weight:900;margin-bottom:18px;
+}
+.benefit h3 {font-size:1rem;}
+.benefit p {font-size:.87rem;color:var(--muted);margin:0;}
+
+/* ELIGIBILITY */
+.eligibility-wrap {
+  display:grid;grid-template-columns:.9fr 1.1fr;
+  gap:45px;align-items:start;
+}
+.eligibility-intro h2 {margin:12px 0 17px;}
+.check-list {list-style:none;padding:0;}
+.check-list li {
+  position:relative;
+  padding-left:28px;
+  margin-bottom:13px;
+  color:#566780;
+}
+.check-list li::before {
+  content:"✓";position:absolute;left:0;
+  color:var(--green);font-weight:900;
+}
+.checker {
+  background:white;border:1px solid var(--line);
+  padding:30px;border-radius:var(--radius);
+  box-shadow:var(--shadow);
+}
+.form-label {display:block;font-weight:800;font-size:.88rem;margin-bottom:9px;}
+.form-select {
+  appearance:none;
+  width:100%;padding:14px;
+  color:var(--ink);
+  border:1px solid #cfdaea;
+  border-radius:10px;
+  background:white;
+  margin-bottom:22px;
+  font-size:.94rem;
+}
+.question-box {
+  background:#f5f8fd;
+  border:1px solid #e5ebf5;
+  border-radius:12px;
+  padding:18px;
+  margin-bottom:17px;
+}
+.question-box h4 {margin:0 0 7px;font-size:.95rem;}
+.question-box p {
+  color:var(--muted);font-size:.8rem;margin:0 0 12px;
+}
+.answer-options {display:flex;gap:14px;flex-wrap:wrap;}
+.answer-options label {
+  display:flex;align-items:center;gap:8px;
+  cursor:pointer;
+  font-size:.88rem;
+  font-weight:650;
+}
+.answer-options input {width:17px;height:17px;accent-color:var(--blue);}
+.req-tag {
+  display:inline-block;
+  background:#e6ecf8;color:#365582;
+  border-radius:6px;padding:3px 8px;
+  font-size:.69rem;text-transform:uppercase;
+  font-weight:850;margin-bottom:9px;
+}
+.req-tag.pref {background:#fff1d6;color:#895d07;}
+.result {
+  margin-top:20px;border-radius:12px;
+  padding:19px;border:1px solid #bedad0;
+  background:#eaf8f2;
+}
+.result.warning {background:#fff6e8;border-color:#ebcd95;}
+.result.fail {background:#fff0ef;border-color:#f0c5c2;}
+.result h3 {font-size:1.08rem;margin:0 0 7px;}
+.result p {font-size:.87rem;margin:0;}
+.result p + p {margin-top:9px;}
+.disclaimer {color:var(--muted);font-size:.77rem;margin-top:15px;}
+
+/* PATH */
+.path-grid {display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.path-card {
+  border:1px solid var(--line);border-radius:16px;
+  background:white;padding:26px;
+}
+.path-step {
+  width:40px;height:40px;display:grid;place-items:center;
+  border-radius:50%;background:var(--blue);color:white;font-weight:900;
+}
+.path-card h3 {margin:17px 0 9px;}
+.path-card p {color:var(--muted);font-size:.9rem;margin:0;}
+
+/* FAQ */
+.faq-list {max-width:850px;margin:auto;}
+.faq-item {
+  border:1px solid var(--line);
+  border-radius:13px;margin-bottom:11px;
+  background:white;overflow:hidden;
+}
+.faq-item summary {
+  cursor:pointer;padding:18px 21px;
+  font-weight:750;list-style:none;
+  display:flex;justify-content:space-between;gap:12px;
+}
+.faq-item summary::-webkit-details-marker {display:none;}
+.faq-item summary::after {content:"+";color:var(--blue);font-size:1.3rem;}
+.faq-item[open] summary::after {content:"−";}
+.faq-item p {
+  padding:0 21px 18px;
+  margin:0;color:var(--muted);font-size:.9rem;
+}
+
+/* CTA & FOOTER */
+.cta {
+  background:linear-gradient(130deg,#0a2146,#174c99);
+  color:white;text-align:center;
+  padding:77px 0;
+}
+.cta h2 {max-width:690px;margin:12px auto 20px;}
+.cta p {color:#c5d7ed;max-width:620px;margin:0 auto 25px;}
+.footer {background:#07152c;color:#a8bad2;padding:40px 0 23px;}
+.footer-top {
+  display:flex;justify-content:space-between;
+  flex-wrap:wrap;gap:20px;
+  border-bottom:1px solid rgba(255,255,255,.13);
+  padding-bottom:26px;
+}
+.footer a:hover {color:white;}
+.footer-links {display:flex;gap:20px;flex-wrap:wrap;font-size:.85rem;}
+.footer-bottom {padding-top:20px;font-size:.77rem;}
+
+/* MODAL */
+.modal-backdrop {
+  position:fixed;inset:0;
+  background:rgba(5,14,30,.76);
+  display:flex;align-items:center;justify-content:center;
+  padding:18px;z-index:200;
+}
+.modal {
+  width:min(760px,100%);
+  max-height:min(90vh,950px);
+  overflow-y:auto;
+  border-radius:20px;
+  background:white;
+  box-shadow:0 30px 85px rgba(0,0,0,.3);
+}
+.modal-header {
+  background:var(--navy2);color:white;
+  padding:27px 30px;position:relative;
+}
+.modal-header h2 {font-size:1.7rem;margin:10px 45px 12px 0;}
+.modal-header p {color:#ccdcf3;margin:0;}
+.close {
+  position:absolute;top:18px;right:19px;
+  width:36px;height:36px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.3);
+  background:rgba(255,255,255,.13);
+  color:white;font-size:1.4rem;
+}
+.modal-body {padding:27px 30px 32px;}
+.modal-body h3 {font-size:1.06rem;margin:25px 0 12px;}
+.modal-body ul {padding-left:21px;color:#52637a;}
+.modal-body li {margin-bottom:9px;}
+.modal-info {
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:10px;margin-bottom:22px;
+}
+.modal-info div {
+  background:#f1f5fb;border-radius:10px;
+  padding:14px;text-align:center;font-size:.83rem;
+}
+.modal-info b {display:block;color:var(--blue);}
+.requirement-panel {
+  background:#f3f7ff;
+  border:1px solid #dce7fa;
+  border-left:4px solid var(--blue);
+  border-radius:10px;padding:20px;
+}
+.requirement-panel h3 {margin-top:0;}
+.requirement-panel p {margin-bottom:10px;}
+.modal-footer {
+  display:flex;gap:10px;flex-wrap:wrap;
+  margin-top:26px;
+}
+
+@media(max-width:980px) {
+  .hero-inner {grid-template-columns:1fr;min-height:auto;}
+  .hero-visual {max-width:440px;margin:0 auto;width:85%;}
+  .course-grid {grid-template-columns:repeat(2,1fr);}
+  .benefit-grid {grid-template-columns:repeat(2,1fr);}
+  .eligibility-wrap {grid-template-columns:1fr;}
+  .path-grid {grid-template-columns:repeat(3,1fr);}
+}
+@media(max-width:700px) {
+  .section {padding:65px 0;}
+  .menu-btn {display:block;}
+  .nav-links {
+    display:none;position:absolute;left:0;right:0;top:75px;
+    padding:18px 5%;background:var(--navy2);
+    flex-direction:column;align-items:stretch;gap:14px;
+    box-shadow:0 16px 20px rgba(0,0,0,.2);
+  }
+  .nav-links.open {display:flex;}
+  .hero-inner {padding:62px 0 35px;gap:20px;}
+  .hero h1 {letter-spacing:-1.2px;}
+  .hero-visual {width:76%;}
+  .float {font-size:.65rem;padding:7px 10px;}
+  .f5 {right:-19%;}
+  .stats-inner {grid-template-columns:repeat(2,1fr);}
+  .stat:nth-child(2) {border:0;}
+  .course-grid,.benefit-grid,.path-grid {grid-template-columns:1fr;}
+  .card-body h3 {min-height:0;}
+  .checker {padding:20px;}
+  .modal-header,.modal-body {padding:23px;}
+  .modal-info {grid-template-columns:1fr 1fr;}
+  .footer-top {display:block;}
+  .footer-links {margin-top:20px;}
+}
+@media(prefers-reduced-motion:reduce) {
+  *,*::before,*::after {
+    scroll-behavior:auto !important;
+    transition:none !important;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="#home" class="brand" aria-label="Future Ready Skills Home">
+      <div class="ama-brand">AMA Education System</div>
+      <div>
+        FUTURE-READY
+        <small>MICRO-CREDENTIALS</small>
+      </div>
+    </a>
+
+    <button class="menu-btn" id="menuBtn"
+      aria-label="Toggle menu" aria-expanded="false">☰</button>
+
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#programs">Programs</a>
+      <a href="#advantages">Why Enroll</a>
+      <a href="#eligibility">Eligibility</a>
+      <a href="#faq">FAQs</a>
+      <a href="#eligibility" class="btn btn-small">Find Your Program →</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+  <div class="container hero-inner">
+    <div>
+      <div class="eyebrow">Industry-Relevant Skills Training</div>
+      <h1>Build skills for a <span>smarter future.</span></h1>
+      <p class="hero-desc">
+        Discover specialized micro-credential programs in Artificial Intelligence,
+        Machine Learning, Data Science, AI Automation, and Cybersecurity.
+        Develop practical competencies that can help you adapt, grow,
+        and take the next step in your professional journey.
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="#programs">Explore the 5 Programs →</a>
+        <a class="btn btn-light" href="#eligibility">Check Your Eligibility</a>
+      </div>
+      <div class="hero-points">
+        <span><b>✓</b> Focused Training</span>
+        <span><b>✓</b> Practical Skills</span>
+        <span><b>✓</b> Blended Learning</span>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="orbit">
+        <div class="orbit-inner">
+          <div class="core">AI</div>
+          <div class="float f1">✦ Generative AI</div>
+          <div class="float f2">⌘ Automation</div>
+          <div class="float f3">▤ Data Science</div>
+          <div class="float f4">◈ Cybersecurity</div>
+          <div class="float f5">◇ Machine Learning</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="stats">
+  <div class="container stats-inner">
+    <div class="stat"><b>5</b><span>Specialized Programs</span></div>
+    <div class="stat"><b>2</b><span>Training Levels</span></div>
+    <div class="stat"><b>40–114</b><span>Training Hours</span></div>
+    <div class="stat"><b>Blended</b><span>Learning Approach</span></div>
+  </div>
+</div>
+
+<section class="section" id="programs">
+  <div class="container">
+    <div class="section-heading">
+      <div class="eyebrow">Explore Your Opportunities</div>
+      <h2>Five programs. Multiple pathways to growth.</h2>
+      <p class="muted">
+        Whether you're building foundational AI skills or expanding your
+        technical capabilities, discover a program aligned with your goals.
+        Review the entry requirements before making your choice.
+      </p>
+    </div>
+
+    <div class="filters" aria-label="Filter programs">
+      <button class="filter active" data-filter="all" aria-pressed="true">All Programs</button>
+      <button class="filter" data-filter="beginner" aria-pressed="false">Accessible Entry</button>
+      <button class="filter" data-filter="ai" aria-pressed="false">AI & Automation</button>
+      <button class="filter" data-filter="data" aria-pressed="false">Data & Machine Learning</button>
+      <button class="filter" data-filter="cyber" aria-pressed="false">Cybersecurity</button>
+    </div>
+
+    <div class="course-grid" id="courseGrid"></div>
+
+    <p class="note">
+      The levels indicate the listed program qualifications, not a universal
+      requirement to complete Level II before Level III.
+      Review each program's specific learner profile.
+    </p>
+  </div>
+</section>
+
+<section class="section section-alt" id="advantages">
+  <div class="container">
+    <div class="section-heading">
+      <div class="eyebrow">Why These Programs?</div>
+      <h2>Learn skills you can put into practice.</h2>
+      <p class="muted">
+        Focused training designed around modern digital tools,
+        professional workflows, and responsible technology use.
+      </p>
+    </div>
+
+    <div class="benefit-grid">
+      <article class="benefit">
+        <div class="benefit-icon">◎</div>
+        <h3>Focused Learning</h3>
+        <p>Develop targeted competencies in a specific, in-demand technology area.</p>
+      </article>
+      <article class="benefit">
+        <div class="benefit-icon">⌘</div>
+        <h3>Practical Applications</h3>
+        <p>Learn to apply tools, methods, and workflows to realistic workplace tasks.</p>
+      </article>
+      <article class="benefit">
+        <div class="benefit-icon">◈</div>
+        <h3>Responsible Technology</h3>
+        <p>Understand responsible AI, data privacy, ethics, and relevant security practices.</p>
+      </article>
+      <article class="benefit">
+        <div class="benefit-icon">↗</div>
+        <h3>Professional Growth</h3>
+        <p>Strengthen technical capabilities relevant to emerging digital work opportunities.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="eligibility">
+  <div class="container eligibility-wrap">
+    <div class="eligibility-intro">
+      <div class="eyebrow">Know Before You Enroll</div>
+      <h2>Check if you meet the entry requirements.</h2>
+      <p class="muted">
+        Every program has its own learner profile. Some require
+        basic computer and digital literacy, while others expect
+        existing cybersecurity knowledge.
+      </p>
+      <p class="muted">
+        Use this quick eligibility checker to identify whether
+        you meet the documented mandatory requirements.
+      </p>
+      <ul class="check-list">
+        <li>Select the program you are interested in.</li>
+        <li>Answer the relevant entry requirement questions.</li>
+        <li>Receive an instant preliminary eligibility result.</li>
+        <li>See whether you also meet preferred qualifications.</li>
+      </ul>
+      <p class="small muted">
+        Important: Preferred backgrounds and experience are not
+        treated as mandatory requirements. Final eligibility
+        verification is handled by the training provider.
+      </p>
+    </div>
+
+    <div class="checker">
+      <h3 style="margin-top:0">Your Eligibility Check</h3>
+      <p class="muted small">No account or personal information is required.</p>
+
+      <label class="form-label" for="programSelect">Choose a program</label>
+      <select id="programSelect" class="form-select">
+        <option value="">Select a micro-credential program</option>
+      </select>
+
+      <form id="eligibilityForm">
+        <div id="questions"></div>
+        <button class="btn hidden" id="checkBtn" type="submit">
+          Check My Eligibility →
+        </button>
+      </form>
+
+      <div id="eligibilityResult" aria-live="polite"></div>
+      <p class="disclaimer">
+        This tool is an informational self-assessment based on
+        the stated learner profiles. It is not an admission decision,
+        examination, or confirmation of enrollment.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="next-steps">
+  <div class="container">
+    <div class="section-heading">
+      <div class="eyebrow">Your Learning Journey</div>
+      <h2>Getting started is simple.</h2>
+    </div>
+    <div class="path-grid">
+      <article class="path-card">
+        <div class="path-step">1</div>
+        <h3>Explore</h3>
+        <p>Review the five programs, learning outcomes, and training durations.</p>
+      </article>
+      <article class="path-card">
+        <div class="path-step">2</div>
+        <h3>Check Your Fit</h3>
+        <p>Compare your current background with the mandatory and preferred entry requirements.</p>
+      </article>
+      <article class="path-card">
+        <div class="path-step">3</div>
+        <h3>Inquire & Enroll</h3>
+        <p>Contact your participating training center to confirm intake schedules, requirements, and enrollment procedures.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-heading">
+      <div class="eyebrow">Frequently Asked Questions</div>
+      <h2>Questions? Start here.</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>What is a micro-credential program?</summary>
+        <p>
+          A micro-credential program is focused training built around
+          a defined set of skills or competencies. These five programs
+          cover specialized topics in AI, data handling, machine
+          learning, automation, and cybersecurity.
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>Do I need a college degree?</summary>
+        <p>
+          The submitted learner profiles do not list a college degree
+          as a mandatory requirement. Data Collection and Annotation
+          Level II and Generative AI Level III explicitly require a
+          high school diploma or equivalent. Other programs have
+          different stated prerequisites, so review each one carefully.
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>Do I need programming experience?</summary>
+        <p>
+          Machine Learning Model Development and AI Prompting for
+          Automation list a background or interest in mathematics,
+          statistics, and basic programming as preferred, not mandatory.
+          Their mandatory learner profile specifies computer and
+          basic digital literacy. Prior programming knowledge can
+          nevertheless be helpful.
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>Can beginners join these programs?</summary>
+        <p>
+          Applicants with basic computer and digital literacy may
+          satisfy the stated knowledge requirements for several
+          programs. Data Collection and Annotation and Generative AI
+          also require a high school diploma or equivalent. Cyber
+          Risk Assessment specifically requires foundational
+          cybersecurity knowledge.
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>Is cybersecurity work experience mandatory?</summary>
+        <p>
+          No. The Cyber Risk Assessment learner profile requires
+          knowledge of fundamental cybersecurity concepts and
+          preferably at least one year of relevant job or industry
+          experience. The experience is a preference rather than
+          an explicit mandatory condition.
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>What is the learning delivery format?</summary>
+        <p>
+          The submitted proposals identify blended learning as
+          the training design. Confirm the actual online and
+          in-person arrangements with the participating training center.
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>Will I receive a credential after completing training?</summary>
+        <p>
+          The programs are presented as micro-credential training.
+          Specific completion documentation, assessment arrangements,
+          and credential issuance conditions should be confirmed
+          with the participating training center before enrollment.
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>When can I enroll?</summary>
+        <p>
+          Contact your participating training center for current
+          intake availability, confirmed class dates, and enrollment
+          instructions. Training schedules can vary by center and batch.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <div class="eyebrow" style="color:#80e4ef">Your Next Chapter Starts Here</div>
+    <h2>Technology is evolving. Grow your skills with it.</h2>
+    <p>
+      Take the next step toward AI fluency, data expertise,
+      intelligent automation, machine learning, or cybersecurity.
+      Explore your options and discover where you can begin.
+    </p>
+    <a href="#eligibility" class="btn btn-light">
+      Find Your Micro-Credential →
+    </a>
+    <a href="https://forms.gle/PvXEBqvJg9wU3mbD8"
+       class="btn"
+       target="_blank"
+       rel="noopener noreferrer"
+       style="margin:10px">
+       Register for a Micro-Credential →
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="brand">
+          <div class="ama-brand">AMA Education System</div>
+        </div>
+        <p class="small" style="margin:14px 0 0;max-width:380px">
+          Future-Ready Micro-Credential Programs
+        </p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="#programs">Programs</a>
+        <a href="#advantages">Benefits</a>
+        <a href="#eligibility">Eligibility</a>
+        <a href="#faq">FAQs</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      Program details and learner profiles are based on the
+      supplied training proposals. Actual enrollment, availability,
+      delivery arrangements, and assessment requirements are
+      subject to confirmation by the training provider.
+    </div>
+  </div>
+</footer>
+
+<!-- PROGRAM DETAILS MODAL -->
+<div class="modal-backdrop hidden" id="modalBackdrop">
+  <div class="modal" role="dialog" aria-modal="true"
+       aria-labelledby="modalTitle" id="programModal">
+    <div class="modal-header">
+      <button class="close" id="closeModal"
+        type="button" aria-label="Close details">×</button>
+      <div class="eyebrow" style="color:#78e3f0">Program Overview</div>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<script>
+"use strict";
+
+/*
+  Single-file course information and eligibility data.
+  Mandatory requirements are assessed separately from preferences.
+  To customize program content, edit only the entries below.
+*/
+
+const programs = [
+  {
+    id: "genai",
+    title: "Generative Artificial Intelligence (AI)",
+    fullTitle: "Generative Artificial Intelligence (AI) Level III",
+    level: "Level III",
+    category: "AI & Digital Productivity",
+    tags: ["beginner", "ai"],
+    hours: 40,
+    days: 5,
+    art: "art-ai",
+    symbol: "AI",
+    short:
+      "Learn to use generative AI tools, create effective prompts, " +
+      "evaluate AI outputs, and apply responsible AI practices.",
+    description:
+      "Build foundational AI fluency through practical interaction " +
+      "with generative AI tools such as ChatGPT and Google Gemini. " +
+      "Learn to use AI productively while recognizing limitations, " +
+      "privacy responsibilities, and intellectual property concerns.",
+    audience:
+      "Digitally literate learners who want to begin using " +
+      "generative AI for everyday and professional activities.",
+    mandatory: [
+      {
+        id: "digital",
+        question: "Are you computer literate and do you possess basic digital literacy skills?",
+        help: "You should be comfortable using a computer and common digital applications."
+      },
+      {
+        id: "highschool",
+        question: "Do you have a high school diploma or equivalent?",
+        help: "A high school diploma or equivalent is explicitly required."
+      }
+    ],
+    preferred: [],
+    outcomes: [
+      "Identify generative AI functions, appropriate uses, and limitations.",
+      "Create and secure AI tool accounts using sound cybersecurity practices, including multifactor authentication.",
+      "Develop and experiment with completion, instruction, and creative prompts.",
+      "Evaluate the accuracy and suitability of AI-generated outputs.",
+      "Apply ethical AI practices and consider data privacy and intellectual property."
+    ],
+    applications: [
+      "AI-assisted content creation",
+      "Document drafting and summarization",
+      "AI-powered information processing",
+      "Responsible use of AI productivity tools"
+    ]
+  },
+  {
+    id: "data",
+    title: "Data Collection and Annotation",
+    fullTitle:
+      "Data Collection and Annotation (Data Science/Artificial Intelligence) Level II",
+    level: "Level II",
+    category: "Data Science & AI",
+    tags: ["beginner", "data"],
+    hours: 107,
+    days: 14,
+    art: "art-data",
+    symbol: "▤",
+    short:
+      "Develop skills in collecting, organizing, preparing, " +
+      "and labeling data used in artificial intelligence.",
+    description:
+      "Learn how reliable AI systems depend on high-quality " +
+      "information. Explore data source identification, " +
+      "data collection, quality checking, and annotation " +
+      "of different forms of information.",
+    audience:
+      "Computer-literate learners interested in data handling, " +
+      "AI data preparation, and annotation workflows.",
+    mandatory: [
+      {
+        id: "digital",
+        question: "Are you computer literate and do you possess basic digital literacy skills?",
+        help: "Basic ability to operate computers and digital tools is required."
+      },
+      {
+        id: "highschool",
+        question: "Do you have a high school diploma or equivalent?",
+        help: "A high school diploma or equivalent is explicitly required."
+      }
+    ],
+    preferred: [],
+    outcomes: [
+      "Identify and prepare data sources based on quality, relevance, and format.",
+      "Collect and aggregate data using appropriate data collection methods.",
+      "Understand the use of APIs and web-based data collection techniques.",
+      "Perform data labeling and annotation tasks including image tagging and text markup.",
+      "Apply ethical data handling, data security, and privacy principles."
+    ],
+    applications: [
+      "AI training data preparation",
+      "Image and text annotation",
+      "Data collection and validation",
+      "Data quality support workflows"
+    ]
+  },
+  {
+    id: "automation",
+    title: "AI Prompting for Automation",
+    fullTitle:
+      "Artificial Intelligence (AI) Prompting for Automation Level III",
+    level: "Level III",
+    category: "AI & Intelligent Automation",
+    tags: ["beginner", "ai"],
+    hours: 90,
+    days: 12,
+    art: "art-automation",
+    symbol: "⌘",
+    short:
+      "Create effective AI prompts and configure basic " +
+      "AI-enabled workflows to simplify repetitive tasks.",
+    description:
+      "Explore prompt engineering and basic AI-assisted " +
+      "automation using appropriate no-code and low-code tools. " +
+      "Learn how to streamline workflows while considering " +
+      "bias, output quality, data privacy, and ethical use.",
+    audience:
+      "Computer-literate professionals and learners interested " +
+      "in improving productivity through AI-supported processes.",
+    mandatory: [
+      {
+        id: "digital",
+        question: "Are you computer literate and do you possess basic digital literacy skills?",
+        help: "Comfort using a computer and standard digital tools is required."
+      }
+    ],
+    preferred: [
+      {
+        id: "mathcode",
+        question:
+          "Do you have a background or interest in mathematics, statistics, and basic programming (such as Python or R)?",
+        help:
+          "This is preferred in the learner profile, not a mandatory requirement."
+      }
+    ],
+    outcomes: [
+      "Develop effective prompts for generative AI applications.",
+      "Recognize AI limitations, output bias, and quality issues.",
+      "Select appropriate AI-enabled tools for basic automation.",
+      "Configure workflows to streamline repetitive tasks.",
+      "Apply data privacy and AI ethics during automation.",
+      "Use critical thinking and workplace communication skills to solve problems."
+    ],
+    applications: [
+      "AI-assisted administrative workflows",
+      "Repetitive task automation",
+      "No-code and low-code AI processes",
+      "Productivity workflow improvement"
+    ]
+  },
+  {
+    id: "ml",
+    title: "Machine Learning Model Development",
+    fullTitle: "Machine Learning Model Development Level III",
+    level: "Level III",
+    category: "Machine Learning & Data Science",
+    tags: ["data"],
+    hours: 114,
+    days: 15,
+    art: "art-ml",
+    symbol: "ML",
+    short:
+      "Learn to prepare datasets, apply statistical methods, " +
+      "train classical machine learning models, and optimize results.",
+    description:
+      "Develop foundational machine learning competencies " +
+      "through data preparation, statistical analysis, " +
+      "programming workflows, model training, optimization, " +
+      "and responsible deployment concepts.",
+    audience:
+      "Digitally literate learners, especially those interested " +
+      "in mathematics, statistics, Python, R, and applied AI.",
+    mandatory: [
+      {
+        id: "digital",
+        question: "Are you computer literate and do you possess basic digital literacy skills?",
+        help: "Computer literacy and basic digital skills are required."
+      }
+    ],
+    preferred: [
+      {
+        id: "mathcode",
+        question:
+          "Do you have a background or interest in mathematics, statistics, and basic programming (such as Python or R)?",
+        help:
+          "This background or interest is preferred, but not an explicit mandatory requirement."
+      }
+    ],
+    outcomes: [
+      "Clean, prepare, and manipulate datasets using Python or R.",
+      "Interpret data using statistical analysis.",
+      "Understand supervised and unsupervised learning.",
+      "Train classical machine learning models using appropriate datasets.",
+      "Optimize model performance using hyperparameter tuning.",
+      "Understand model deployment and responsible data practices."
+    ],
+    applications: [
+      "Machine learning model development",
+      "Statistical and data analysis",
+      "Predictive modeling workflows",
+      "AI model testing and optimization"
+    ]
+  },
+  {
+    id: "cyber",
+    title: "Cyber Risk Assessment",
+    fullTitle: "Cyber Risk Assessment Level III",
+    level: "Level III",
+    category: "Cybersecurity & Risk Management",
+    tags: ["cyber"],
+    hours: 84,
+    days: 11,
+    art: "art-cyber",
+    symbol: "◈",
+    short:
+      "Learn to identify cybersecurity risks, evaluate " +
+      "compliance gaps, and recommend suitable security controls.",
+    description:
+      "Develop the competencies needed to review cybersecurity " +
+      "standards and laws, evaluate organizational compliance, " +
+      "identify threats and vulnerabilities, perform risk " +
+      "assessments, and document recommended controls.",
+    audience:
+      "Learners with foundational knowledge of cybersecurity, " +
+      "including those seeking to strengthen risk and compliance skills.",
+    mandatory: [
+      {
+        id: "cyberbasics",
+        question: "Are you knowledgeable in fundamental cybersecurity concepts?",
+        help:
+          "The learner profile explicitly requires fundamental cybersecurity knowledge."
+      }
+    ],
+    preferred: [
+      {
+        id: "experience",
+        question:
+          "Do you have at least one year of cybersecurity-related job, industry, or relevant experience?",
+        help:
+          "At least one year of relevant experience is preferred, not mandatory."
+      }
+    ],
+    outcomes: [
+      "Research ISO/IEC 27001, the NIST Cybersecurity Framework, and relevant cybersecurity legislation.",
+      "Identify gaps between current organizational security practices and applicable standards.",
+      "Conduct and document cybersecurity compliance assessments.",
+      "Identify information assets, threats, and vulnerabilities.",
+      "Analyze and prioritize risks based on defined assessment methods.",
+      "Prepare risk assessment findings, remediation recommendations, and operational measures."
+    ],
+    applications: [
+      "Cybersecurity risk analysis",
+      "Security compliance assessment",
+      "Vulnerability and threat identification",
+      "Information security governance support"
+    ]
+  }
+];
+
+const grid = document.getElementById("courseGrid");
+const programSelect = document.getElementById("programSelect");
+const questions = document.getElementById("questions");
+const checkBtn = document.getElementById("checkBtn");
+const resultArea = document.getElementById("eligibilityResult");
+const modalBackdrop = document.getElementById("modalBackdrop");
+const modalTitle = document.getElementById("modalTitle");
+const modalDescription = document.getElementById("modalDescription");
+const modalBody = document.getElementById("modalBody");
+
+let lastFocusedElement = null;
+
+function escapeHTML(value) {
+  return String(value).replace(/[&<>"']/g, function(char) {
+    return {
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#39;"
+    }[char];
+  });
+}
+
+function renderCards(filter = "all") {
+  const filtered = programs.filter(p =>
+    filter === "all" || p.tags.includes(filter)
+  );
+
+  grid.innerHTML = filtered.map(p => {
+    const mandatoryText = p.mandatory
+      .map(r => r.id === "digital"
+        ? "Basic computer and digital literacy"
+        : r.id === "highschool"
+          ? "High school diploma or equivalent"
+          : "Foundational cybersecurity knowledge")
+      .join("; ");
+
+    return `
+      <article class="course-card">
+        <div class="card-art ${p.art}">
+          <span class="art-symbol">${escapeHTML(p.symbol)}</span>
+          <span class="level-pill">${escapeHTML(p.level)}</span>
+        </div>
+        <div class="card-body">
+          <div class="card-category">${escapeHTML(p.category)}</div>
+          <h3>${escapeHTML(p.title)}</h3>
+          <p>${escapeHTML(p.short)}</p>
+          <div class="card-meta">
+            <span class="meta-chip">◷ ${p.hours} hours</span>
+            <span class="meta-chip">▦ ${p.days} days</span>
+            <span class="meta-chip">Blended learning</span>
+          </div>
+          <div class="req-preview">
+            <strong>Entry requirements</strong>
+            <p>${escapeHTML(mandatoryText)}</p>
+            <div class="card-actions">
+              <button type="button" class="btn btn-outline"
+                data-details="${p.id}">View Details</button>
+            
+              <button type="button" class="btn btn-outline"
+                data-check="${p.id}">Check Eligibility</button>
+            
+              <a class="btn"
+                 href="https://forms.gle/PvXEBqvJg9wU3mbD8"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                 Register Now →
+              </a>
+            </div>
+          </div>
+        </div>
+      </article>
+    `;
+  }).join("");
+}
+
+function renderQuestion(req, index, preferred) {
+  const name = `q_${index}`;
+  return `
+    <fieldset class="question-box" style="min-width:0">
+      <legend class="hidden">Requirement ${index + 1}</legend>
+      <span class="req-tag ${preferred ? "pref" : ""}">
+        ${preferred ? "Preferred Qualification" : "Mandatory Requirement"}
+      </span>
+      <h4>${escapeHTML(req.question)}</h4>
+      <p>${escapeHTML(req.help)}</p>
+      <div class="answer-options">
+        <label>
+          <input type="radio" name="${name}" value="yes">
+          Yes
+        </label>
+        <label>
+          <input type="radio" name="${name}" value="no">
+          No
+        </label>
+      </div>
+    </fieldset>
+  `;
+}
+
+function loadQuestions() {
+  const program = programs.find(p => p.id === programSelect.value);
+  resultArea.innerHTML = "";
+
+  if (!program) {
+    questions.innerHTML = "";
+    checkBtn.classList.add("hidden");
+    return;
+  }
+
+  const combined = [
+    ...program.mandatory.map(r => ({...r, preferred:false})),
+    ...program.preferred.map(r => ({...r, preferred:true}))
+  ];
+
+  questions.innerHTML = combined.map((req, index) =>
+    renderQuestion(req, index, req.preferred)
+  ).join("");
+
+  checkBtn.classList.remove("hidden");
+}
+
+function runEligibility(event) {
+  event.preventDefault();
+
+  const program = programs.find(p => p.id === programSelect.value);
+  if (!program) return;
+
+  const allRequirements = [
+    ...program.mandatory.map(r => ({...r, preferred:false})),
+    ...program.preferred.map(r => ({...r, preferred:true}))
+  ];
+
+  const answers = allRequirements.map((req, index) => {
+    const selected = document.querySelector(
+      `input[name="q_${index}"]:checked`
+    );
+    return {
+      ...req,
+      answer: selected ? selected.value : null
+    };
+  });
+
+  if (answers.some(a => a.answer === null)) {
+    resultArea.innerHTML = `
+      <div class="result warning" role="status">
+        <h3>Please answer all questions.</h3>
+        <p>Complete the mandatory and preferred qualification questions
+        to receive a clear result.</p>
+      </div>
+    `;
+    return;
+  }
+
+  const missed = answers.filter(a =>
+    !a.preferred && a.answer === "no"
+  );
+
+  const preferredMissed = answers.filter(a =>
+    a.preferred && a.answer === "no"
+  );
+
+  let className = "";
+  let heading = "";
+  let message = "";
+
+  if (missed.length) {
+    className = "fail";
+    heading = "Entry requirements not yet met";
+    message =
+      "Based on your answers, you do not currently meet " +
+      "all documented mandatory requirements for this program.";
+    message += "<br><br><strong>Requirements to address:</strong><ul>";
+    message += missed.map(a =>
+      `<li>${escapeHTML(a.question)}</li>`
+    ).join("");
+    message += "</ul>";
+  } else if (preferredMissed.length) {
+    className = "warning";
+    heading = "You meet the mandatory requirements!";
+    message =
+      "Your answers indicate that you satisfy the stated " +
+      "mandatory entry requirements. You do not meet every " +
+      "preferred qualification, but these preferences are " +
+      "not documented as mandatory conditions.";
+  } else {
+    heading = "You meet the stated entry requirements!";
+    message =
+      "Based on your answers, you meet all documented mandatory " +
+      "requirements for this program.";
+    if (program.preferred.length) {
+      message += " You also meet the listed preferred qualifications.";
+    }
+  }
+
+  if (!missed.length) {
+    message +=
+      "<br><br>Next step: Contact your participating training " +
+      "center to confirm enrollment requirements and availability.";
+  } else {
+    message +=
+      "<br><br>You may wish to develop the missing foundational " +
+      "skills or discuss your qualifications with the training center.";
+  }
+
+  resultArea.innerHTML = `
+    <div class="result ${className}" role="status">
+      <h3>${heading}</h3>
+      <p>${message}</p>
+  
+      <p>
+        <strong>Reminder:</strong> This is a preliminary
+        self-assessment, not an admission decision.
+      </p>
+  
+      ${
+        !missed.length
+          ? `
+            <a class="btn"
+               style="margin-top:18px"
+               href="https://forms.gle/PvXEBqvJg9wU3mbD8"
+               target="_blank"
+               rel="noopener noreferrer">
+               Proceed to Registration →
+            </a>
+          `
+          : ""
+      }
+    </div>
+  `;
+
+  resultArea.scrollIntoView({
+    behavior: "smooth",
+    block: "nearest"
+  });
+}
+
+function openDetails(id) {
+  const p = programs.find(item => item.id === id);
+  if (!p) return;
+
+  lastFocusedElement = document.activeElement;
+  modalTitle.textContent = p.fullTitle;
+  modalDescription.textContent = p.short;
+
+  const list = items =>
+    `<ul>${items.map(item =>
+      `<li>${escapeHTML(item)}</li>`
+    ).join("")}</ul>`;
+
+  modalBody.innerHTML = `
+    <div class="modal-info">
+      <div><b>${escapeHTML(p.level)}</b>Program Level</div>
+      <div><b>${p.hours} hours</b>Training Duration</div>
+      <div><b>${p.days} days</b>Training Days</div>
+    </div>
+
+    <p>${escapeHTML(p.description)}</p>
+
+    <h3>Who Is This Program For?</h3>
+    <p>${escapeHTML(p.audience)}</p>
+
+    <div class="requirement-panel">
+      <h3>Entry Requirements</h3>
+      <strong>Mandatory Requirements</strong>
+      ${list(p.mandatory.map(r => r.question))}
+
+      <strong>Preferred Qualifications</strong>
+      ${
+        p.preferred.length
+          ? list(p.preferred.map(r => r.question))
+          : `<p style="margin-top:10px">
+               No additional preferred qualifications are specified
+               in the submitted learner profile.
+             </p>`
+      }
+      <p class="small muted" style="margin-bottom:0">
+        Preferred qualifications are not mandatory.
+        Eligibility is subject to verification.
+      </p>
+    </div>
+
+    <h3>What You Will Learn</h3>
+    ${list(p.outcomes)}
+
+    <h3>Practical Applications</h3>
+    ${list(p.applications)}
+
+    <h3>Training Delivery</h3>
+    <p>
+      Blended learning. Specific training arrangements,
+      class schedules, and facilities should be confirmed
+      with the participating training center.
+    </p>
+
+    <div class="modal-footer">
+      <button class="btn btn-outline" id="modalEligibility"
+        type="button">
+        Check My Eligibility
+      </button>
+    
+      <a class="btn"
+         href="https://forms.gle/PvXEBqvJg9wU3mbD8"
+         target="_blank"
+         rel="noopener noreferrer">
+         Register Now →
+      </a>
+    
+      <button class="btn btn-outline" id="modalCloseBottom"
+        type="button">
+        Back to Programs
+      </button>
+    </div>
+  `;
+
+  document.getElementById("modalEligibility")
+    .addEventListener("click", () => {
+      closeDetails();
+      selectProgram(id);
+    });
+
+  document.getElementById("modalCloseBottom")
+    .addEventListener("click", closeDetails);
+
+  modalBackdrop.classList.remove("hidden");
+  document.body.style.overflow = "hidden";
+  document.getElementById("closeModal").focus();
+}
+
+function closeDetails() {
+  modalBackdrop.classList.add("hidden");
+  document.body.style.overflow = "";
+
+  if (lastFocusedElement &&
+      document.contains(lastFocusedElement)) {
+    lastFocusedElement.focus();
+  }
+}
+
+function selectProgram(id) {
+  programSelect.value = id;
+  loadQuestions();
+
+  document.getElementById("eligibility")
+    .scrollIntoView({behavior:"smooth",block:"start"});
+}
+
+/* Set up the program selector */
+programs.forEach(p => {
+  const option = document.createElement("option");
+  option.value = p.id;
+  option.textContent = p.fullTitle;
+  programSelect.appendChild(option);
+});
+
+programSelect.addEventListener("change", loadQuestions);
+document.getElementById("eligibilityForm")
+  .addEventListener("submit", runEligibility);
+
+/* Filter buttons */
+document.querySelectorAll(".filter").forEach(button => {
+  button.addEventListener("click", () => {
+    document.querySelectorAll(".filter").forEach(b => {
+      b.classList.remove("active");
+      b.setAttribute("aria-pressed", "false");
+    });
+    button.classList.add("active");
+    button.setAttribute("aria-pressed", "true");
+    renderCards(button.dataset.filter);
+  });
+});
+
+/* Program cards - event delegation */
+grid.addEventListener("click", event => {
+  const detailButton = event.target.closest("[data-details]");
+  const checkButton = event.target.closest("[data-check]");
+
+  if (detailButton) {
+    openDetails(detailButton.dataset.details);
+  } else if (checkButton) {
+    selectProgram(checkButton.dataset.check);
+  }
+});
+
+/* Modal close controls */
+document.getElementById("closeModal")
+  .addEventListener("click", closeDetails);
+
+modalBackdrop.addEventListener("click", event => {
+  if (event.target === modalBackdrop) closeDetails();
+});
+
+document.addEventListener("keydown", event => {
+  if (modalBackdrop.classList.contains("hidden")) return;
+
+  if (event.key === "Escape") {
+    closeDetails();
+    return;
+  }
+
+  if (event.key === "Tab") {
+    const focusable = Array.from(
+      document.querySelectorAll(
+        "#programModal button:not([disabled]), " +
+        "#programModal a[href], " +
+        "#programModal input:not([disabled])"
+      )
+    ).filter(el => el.getClientRects().length > 0);
+
+    if (!focusable.length) return;
+
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey &&
+               document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  }
+});
+
+/* Mobile navigation */
+const menuButton = document.getElementById("menuBtn");
+const navLinks = document.getElementById("navLinks");
+
+menuButton.addEventListener("click", () => {
+  const open = navLinks.classList.toggle("open");
+  menuButton.setAttribute("aria-expanded", String(open));
+  menuButton.textContent = open ? "×" : "☰";
+});
+
+navLinks.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("open");
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.textContent = "☰";
+  });
+});
+
+/* Initial rendering */
+renderCards();
+
+</script>
+</body>
+</html>
